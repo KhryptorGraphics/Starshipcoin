@@ -128,8 +128,8 @@ const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT           = 2000;          //
 const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; // 2 minutes
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
-
-const char* const SEED_NODES[] = { "18.221.2.50:17800", "47.211.88.55:17800", "208.180.220.104:17800" };
+const char GENESIS_COINBASE_TX_HEX[] = "010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b39361d8aeebb0fe24d925ae2b9c23d8dc8ea0a7ada3a3a7df2d6fd5bea34992";
+const char* const SEED_NODES[] = { "18.221.2.50:17800", "47.211.88.55:17800", "208.180.220.104:17800", "65.52.54.196:17800"};
 
 
 struct CheckpointData {
